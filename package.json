@@ -1,7 +1,7 @@
 {
-  "name": "modulee13_homework",
+  "name": "e13",
   "version": "1.0.0",
-  "description": "Home work module E13",
+  "description": "SF.FPW-40.E13",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aerastov/moduleE13_homework.git"
+    "url": "git+https://github.com/6760525/FPW40_E13.git"
   },
   "author": "Erastov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aerastov/moduleE13_homework/issues"
+    "url": "https://github.com/6760525/FPW40_E13/issues"
   },
-  "homepage": "https://github.com/aerastov/moduleE13_homework#readme",
+  "homepage": "https://github.com/6760525/FPW40_E13#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",

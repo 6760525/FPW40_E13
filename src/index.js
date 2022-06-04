@@ -3,7 +3,7 @@ import {sum} from './math';
 
 const div_sum = document.querySelector('.sum');
 div_sum.innerHTML = 'Test Webpack<br>';
-div_sum.innerHTML += 'sum = ' + sum(10, 20);
+div_sum.innerHTML += '2pi = ' + sum(2);
 
 const btn = document.querySelector('.btn');
 const div_jsonData = document.querySelector('.jsonData');
@@ -23,6 +23,6 @@ function getJson() {
             }
         }
     })
-    .catch(() => window.alert(`Нет связи с json-server! Запустите сервер командой:\n json-server --watch database.json`));
+    .catch(() => window.alert('Run JSON Server:\n json-server --watch database.json'));
 }
 btn.addEventListener('click', getJson);
